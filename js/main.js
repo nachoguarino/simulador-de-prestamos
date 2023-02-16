@@ -26,5 +26,5 @@ if (isNaN(monto) || isNaN(tasaInteres) || isNaN(plazo)) {
 else {
     let cuotaMensual = calcularPrestamo(monto, tasaInteres, plazo)
 
-    alert("La cuota mensual que debera abonar es de: $"+ cuotaMensual)
+    alert("La cuota mensual que debera abonar es de: $"+ cuotaMensual.toFixed(2))
 }
